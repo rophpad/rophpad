@@ -12,7 +12,7 @@ export default function Home() {
   const socialIconStyle = "p-2 size-10 border border-white/10 rounded-lg hover:bg-white/5 transition-colors cursor-pointer";
 
   return (
-    <div className="w-full font-sans items- justify-items-center h-full py- px-">
+    <div className="w-full font-sans flex flex-col items-center justify-center h-full py- px-">
       <div className="w-full px-8 lg:px-0 lg:max-w-2xl mt-8 flex flex-col gap-16">
         <div className="w-full h- flex flex-col items-center gap-8 ">
           <div className="w-full border-b border-white/10 py-4 flex items-center gap-4" id="about-me">
