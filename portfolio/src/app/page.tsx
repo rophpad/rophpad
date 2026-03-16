@@ -6,7 +6,7 @@ import ArticleCard from "@/components/ArticleCard";
 import { Project } from "@/types/Project";
 import { Work } from "@/types/Work";
 import { Article } from "@/types/Article";
-import { aboutme, projects, works, articles, socialNetworks } from "@/informations"
+import { aboutme, projects, designs, works, articles, socialNetworks } from "@/informations"
 
 export default function Home() {
   const socialIconStyle = "p-2 size-10 border border-white/10 rounded-lg hover:bg-white/5 transition-colors cursor-pointer";
@@ -92,7 +92,7 @@ export default function Home() {
 
         <div className="w-full max-w-3xl h- flex flex-col items-center gap-8 " id="articles">
           <div className="w-full border-b border-dotted border-spacing-8 border-white/10 py-4 flex items-center gap-4">
-            <h2 className="text-xl font-medium">Articles</h2>
+            <h2 className="text-xl font-medium">Writtings</h2>
           </div>
 
           <div className="w-full">

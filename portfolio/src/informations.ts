@@ -10,14 +10,20 @@ export const aboutme: {
 } = {
   username: "Roph PAD",
   profile:
-    "I'm Rophen PADONOU. I love solving everyday problems using my tech skills, and if it's related to education or finance, I'm more dedicated.",
+    "I'm Rophen PADONOU. I enjoy solving everyday problems using my tech skills.",
   interests:
     "When I'm not hitting my keyboard, you'll usually find me playing BasketBall, or discovering new places and experiences.",
   workStatus:
-    "Currently I'm building justapply, a tool to help devs easily apply for jobs. Previously, I have worked as a developer and designer.",
+    "Currently I'm building competree, a tool to create, manage and share any competition effortlessly. Previously, I have worked as a developer and designer.",
 };
 
 export const projects: Project[] = [
+  {
+    name: "competree",
+    logo: "competree.png",
+    link: "https://competree.vercel.app/",
+    description: "Create, manage and share any competition effortlessly.",
+  },
   {
     name: "introcam",
     logo: "introcam.png",
@@ -25,10 +31,23 @@ export const projects: Project[] = [
     description: "Record presentation video while reading script.",
   },
   {
-    name: "justapply",
-    logo: "justapply.png",
-    link: "https://justapply-at.vercel.app",
-    description: "A tool to help developers easily apply for jobs.",
+    name: "iwemap",
+    logo: "iwemap.png",
+    link: "https://iwemap.vercel.app/",
+    description: "A simple online books explorer for a local library.",
+  },
+  {
+    name: "dailybread",
+    logo: "dailybread.png",
+    link: "https://dailybread-store.vercel.app/",
+    description: "Order breads and accompaniments online.",
+  },
+];
+
+export const designs: { name: string; link: string }[] = [
+  {
+    name: "My design works",
+    link: "https://www.notion.so/my-design-works-2494347db4b380ae80b6d493b08e8e49",
   },
 ];
 
