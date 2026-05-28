@@ -1,3 +1,9 @@
+import competreeLogo from "./assets/images/projects/competree.png";
+import dailybreadLogo from "./assets/images/projects/dailybread.png";
+import introcamLogo from "./assets/images/projects/introcam.png";
+import iwemapLogo from "./assets/images/projects/iwemap.png";
+import justapplyLogo from "./assets/images/projects/justapply.png"
+import edemiLogo from "./assets/images/projects/edemi.png"
 import { Article } from "./types/Article";
 import { Project } from "./types/Project";
 import { Work } from "./types/Work";
@@ -20,27 +26,39 @@ export const aboutme: {
 export const projects: Project[] = [
   {
     name: "competree",
-    logo: "competree.png",
+    logo: competreeLogo,
     link: "https://competree.vercel.app/",
     description: "Create, manage and share any competition effortlessly.",
   },
   {
     name: "introcam",
-    logo: "introcam.png",
+    logo: introcamLogo,
     link: "https://introcam.pagy.site",
     description: "Record presentation video while reading script.",
   },
   {
     name: "iwemap",
-    logo: "iwemap.png",
+    logo: iwemapLogo,
     link: "https://iwemap.vercel.app/",
     description: "A simple online books explorer for a local library.",
   },
   {
     name: "dailybread",
-    logo: "dailybread.png",
+    logo: dailybreadLogo,
     link: "https://dailybread-store.vercel.app/",
     description: "Order breads and accompaniments online.",
+  },
+  {
+    name: "justapply",
+    logo: justapplyLogo,
+    link: "https://justapply.vercel.app/",
+    description: "Apply for jobs online.",
+  },
+  {
+    name: "edemi",
+    logo: edemiLogo,
+    link: "https://edemi.vercel.app/",
+    description: "Learn african languages one word at the time.",
   },
 ];
 
