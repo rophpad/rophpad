@@ -1,3 +1,9 @@
+import competreeLogo from "./assets/images/projects/competree.png";
+import dailybreadLogo from "./assets/images/projects/dailybread.png";
+import introcamLogo from "./assets/images/projects/introcam.png";
+import iwemapLogo from "./assets/images/projects/iwemap.png";
+import justapplyLogo from "./assets/images/projects/justapply.png"
+import edemiLogo from "./assets/images/projects/edemi.png"
 import { Article } from "./types/Article";
 import { Project } from "./types/Project";
 import { Work } from "./types/Work";
@@ -10,25 +16,56 @@ export const aboutme: {
 } = {
   username: "Roph PAD",
   profile:
-    "I'm Rophen PADONOU. I love solving everyday problems using my tech skills, and if it's related to education or finance, I'm more dedicated.",
+    "I'm Rophen PADONOU. I enjoy solving everyday problems using my tech skills.",
   interests:
     "When I'm not hitting my keyboard, you'll usually find me playing BasketBall, or discovering new places and experiences.",
   workStatus:
-    "Currently I'm building justapply, a tool to help devs easily apply for jobs. Previously, I have worked as a developer and designer.",
+    "Currently I'm building competree, a tool to create, manage and share any competition effortlessly. Previously, I have worked as a developer and designer.",
 };
 
 export const projects: Project[] = [
   {
+    name: "competree",
+    logo: competreeLogo,
+    link: "https://competree.vercel.app/",
+    description: "Create, manage and share any competition effortlessly.",
+  },
+  {
     name: "introcam",
-    logo: "introcam.png",
+    logo: introcamLogo,
     link: "https://introcam.pagy.site",
     description: "Record presentation video while reading script.",
   },
   {
+    name: "iwemap",
+    logo: iwemapLogo,
+    link: "https://iwemap.vercel.app/",
+    description: "A simple online books explorer for a local library.",
+  },
+  {
+    name: "dailybread",
+    logo: dailybreadLogo,
+    link: "https://dailybread-store.vercel.app/",
+    description: "Order breads and accompaniments online.",
+  },
+  {
     name: "justapply",
-    logo: "justapply.png",
-    link: "https://justapply-at.vercel.app",
-    description: "A tool to help developers easily apply for jobs.",
+    logo: justapplyLogo,
+    link: "https://justapply.vercel.app/",
+    description: "Apply for jobs online.",
+  },
+  {
+    name: "edemi",
+    logo: edemiLogo,
+    link: "https://edemi.vercel.app/",
+    description: "Learn african languages one word at the time.",
+  },
+];
+
+export const designs: { name: string; link: string }[] = [
+  {
+    name: "My design works",
+    link: "https://www.notion.so/my-design-works-2494347db4b380ae80b6d493b08e8e49",
   },
 ];
 
