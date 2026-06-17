@@ -25,9 +25,15 @@ export const aboutme: {
 
 export const projects: Project[] = [
   {
+    name: "justapply",
+    logo: justapplyLogo,
+    link: "https://justapply.xyz/",
+    description: "Turn your github into job-ready applications.",
+  },
+  {
     name: "competree",
     logo: competreeLogo,
-    link: "https://competree.vercel.app/",
+    link: "https://competree.app/",
     description: "Create, manage and share any competition effortlessly.",
   },
   {
@@ -47,12 +53,6 @@ export const projects: Project[] = [
     logo: dailybreadLogo,
     link: "https://dailybread-store.vercel.app/",
     description: "Order breads and accompaniments online.",
-  },
-  {
-    name: "justapply",
-    logo: justapplyLogo,
-    link: "https://justapply.vercel.app/",
-    description: "Apply for jobs online.",
   },
   {
     name: "edemi",
