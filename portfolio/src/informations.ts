@@ -130,11 +130,11 @@ export const works: Work[] = [
 
 export const articles: Article[] = [
   {
-    title: "What happens when typing www.google.com ?",
+    title: "What happens when you type https://www.google.com and hit enter ?",
     field: "Web",
     platform: "Medium",
-    date: "21 June 2022",
-    link: "https://www.medium.com",
+    date: "17 December 2023",
+    link: "https://medium.com/@rophpad/what-happens-when-you-type-https-www-google-com-and-hit-enter-2e7f78756c9e",
   },
 ];
 
