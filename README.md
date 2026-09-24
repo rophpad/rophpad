@@ -22,6 +22,6 @@ I build products at the intersection of AI, software engineering, product thinki
 
 ### Find Me
 
-- Portfolio — [rophpad.vercel.app](https://rophpad.vercel.app)
+- Portfolio — [rophpad.me](https://rophpad.me)
 - [LinkedIn](https://www.linkedin.com/in/rophpad/) · [X / Twitter](https://x.com/rophpad) · [email](mailto:rophenp@gmail.com)
 - Open to opportunities
