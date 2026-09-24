@@ -13,7 +13,7 @@ I build products at the intersection of AI, software engineering, product thinki
 
 - [dashu-packages](https://github.com/rophpad/dashu-packages) / [dashu-ui](https://github.com/rophpad/dashu-ui) — talk to your database in natural language, safely
 - [imgen](https://github.com/rophpad/imgen) — dependency-free image generation for the web
-- [newsai](https://github.com/rophpad/newsai) — AI-powered news experience: summaries, translation, and audio narration
+- [pseudoe](https://github.com/rophpad/pseudoe) — give every anonymous user a name worth remembering
 
 ### Currently Building
 
